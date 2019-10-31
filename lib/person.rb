@@ -8,8 +8,6 @@ class Person
  # GETTER METHOD:
   def name=(name)
     @name = name
-    @first_name = first_name
-    @last_name = last_name
   end
   
   # SETTER METHOD:
