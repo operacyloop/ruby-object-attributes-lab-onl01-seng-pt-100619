@@ -1,20 +1,17 @@
 class Person
   
- #  def initialize(first_name, last_name)
-#   @first_name = first_name
- #   @last_name = last_name
-#  end
+def initialize(name)
+    @name = name
+  end
  
  # GETTER METHOD:
-  def name=(name)
-    @name = name
+  def name
+    @name
   end
   
   # SETTER METHOD:
-  def name
-    "#{@first_name} #{@last_name}".strip
+  def name=(new_name)
+    @name = new_name
   end
  
-end
-
 end 
